@@ -2,6 +2,7 @@
     "values": [
         "only_wood:wood_check",
         "only_wood:boom_scoreboard",
-        "only_wood:transmute_pickaxe"
+        "only_wood:transmute_pickaxe",
+        "only_wood:equipment_check"
     ]
 }
