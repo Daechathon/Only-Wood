@@ -1,5 +1,3 @@
-say immunity gained!
-
 #Title
 execute as @s at @s run title @s title {"text": "STAND ON WOOD OR DIE", "color": "yellow"}
 execute as @s at @s run title @s times 10 400 10

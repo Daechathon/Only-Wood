@@ -9,7 +9,6 @@ execute as @s at @s run scoreboard players operation @s math -= time math
 #execute as @s at @s store result score self_math player_immunity run scoreboard players get @s math
 #execute store result score timer player_immunity run stopwatch query impending_doom
 
-
 #update
 $execute as @s at @s store result bossbar $(id) value run scoreboard players get @s math
 
@@ -21,5 +20,6 @@ execute as @s at @s run scoreboard players set @s player_immunity -1
 #execute as @s at @s run scoreboard players set @s boom_immunity 0
 execute as @s at @s run data remove storage minecraft:player_id player.immune
 
-#say immunity lost!
 
+#advancement: explode
+execute as @s at @s if score @s boom_counter matches 1.. run advancement grant @s only only_wood:explode

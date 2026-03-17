@@ -1,5 +1,3 @@
-say Initializing boss bar!
-
 $bossbar add $(id) "Explosion Incoming!"
 $bossbar set $(id) max 20
 $bossbar set $(id) players @s

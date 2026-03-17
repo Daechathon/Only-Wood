@@ -4,7 +4,9 @@ execute as @a at @s if data storage player_id player.immune run return 0
 execute if entity @s[nbt={Health:0.0f}] run return 0
 gamerule show_death_messages false
 
-say @s was executed for heresy
+
+#say @s was executed for heresy
+tellraw @a [{"type":"selector","selector":"@s"},{"text":" was executed by the Lorax for heresy"}]
 
 summon minecraft:lightning_bolt ~ ~ ~
 summon minecraft:lightning_bolt ~ ~ ~

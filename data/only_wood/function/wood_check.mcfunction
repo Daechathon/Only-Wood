@@ -1,3 +1,5 @@
+#minecraft:tick
+
 #permit nether portals
 execute as @a at @s run execute if block ~ ~-0.1 ~ minecraft:obsidian at @s run execute if block ~ ~ ~ minecraft:nether_portal run return 0
 
