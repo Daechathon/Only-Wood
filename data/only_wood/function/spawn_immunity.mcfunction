@@ -1,6 +1,6 @@
 #Title
 execute as @s at @s run title @s title {"text": "STAND ON WOOD OR DIE", "color": "yellow"}
-execute as @s at @s run title @s times 10 400 10
+execute as @s at @s run title @s times 10 90 10
 
 stopwatch create impending_doom
 execute as @s at @s run scoreboard players reset @s player_immunity
