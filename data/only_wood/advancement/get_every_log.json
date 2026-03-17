@@ -1,0 +1,103 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pale_oak_log"
+        },
+        "title": "Get Every Log",
+        "description": "Why",
+        "frame": "challenge"
+    },
+    "parent": "only_wood:get_log",
+    "criteria": {
+        "obtain acacia log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:acacia_logs"
+                    }
+                ]
+            }
+        },
+        "obtain birch log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:birch_logs"
+                    }
+                ]
+            }
+        },
+        "obtain cherry log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:cherry_logs"
+                    }
+                ]
+            }
+        },
+        "obtain dark oak log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:dark_oak_logs"
+                    }
+                ]
+            }
+        },
+        "obtain jungle log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:jungle_logs"
+                    }
+                ]
+            }
+        },
+        "obtain mangrove log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:mangrove_logs"
+                    }
+                ]
+            }
+        },
+        "obtain oak log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:oak_log"
+                    }
+                ]
+            }
+        },
+        "obtain pale oak log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:pale_oak_logs"
+                    }
+                ]
+            }
+        },
+        "obtain spruce log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "#minecraft:spruce_logs"
+                    }
+                ]
+            }
+        }
+    }
+}
