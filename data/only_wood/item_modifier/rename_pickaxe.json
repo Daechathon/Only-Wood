@@ -1,0 +1,9 @@
+{
+    "function": "set_name",
+    "name": {
+        "type": "text",
+        "text": "Wooden Pickaxe",
+        "italic": false
+    },
+    "entity": "this"
+}
