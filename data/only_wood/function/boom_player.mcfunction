@@ -1,7 +1,9 @@
+#spawn immunity
+execute as @a at @s if data storage player_id player.immune run return 0
+
 execute if entity @s[nbt={Health:0.0f}] run return 0
 gamerule show_death_messages false
 
-#$say @s was killed by $(block_id)
 say @s was executed for heresy
 
 summon minecraft:lightning_bolt ~ ~ ~
