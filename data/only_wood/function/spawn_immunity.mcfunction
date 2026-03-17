@@ -14,3 +14,5 @@ execute as @s at @s run function only_wood:init_bossbar with storage minecraft:p
 #grant the immunity
 #execute as @s at @s run scoreboard players set @s boom_immunity 1
 execute as @s at @s run data modify storage minecraft:player_id player.immune set value 1
+
+execute as @s at @s run advancement revoke @s only only_wood:dimension_spawn_protection
