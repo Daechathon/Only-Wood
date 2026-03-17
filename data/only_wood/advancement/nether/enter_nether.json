@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:nether_bricks"
+        },
+        "title": "Go to the Nether",
+        "description": "This might be a bit dangerous",
+        "frame": "goal"
+    },
+    "parent": "only_wood:get_log",
+    "criteria": {
+        "go to the nether": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "minecraft:the_nether"
+            }
+        }
+    }
+}
