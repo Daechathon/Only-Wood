@@ -1,0 +1,36 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_log"
+        },
+        "title": "Obtain a Log",
+        "description": "Get punching trees!",
+        "frame": "task",
+        "hidden": false
+    },
+    "parent": "only_wood:explode",
+    "criteria": {
+        "obtain a log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:acacia_log",
+                            "minecraft:birch_log",
+                            "minecraft:cherry_log",
+                            "minecraft:dark_oak_log",
+                            "minecraft:jungle_log",
+                            "minecraft:mangrove_log",
+                            "minecraft:oak_log",
+                            "minecraft:pale_oak_log",
+                            "minecraft:spruce_log"
+                        ],
+                        "count": 1
+                    }
+                ]
+            }
+        }
+    }
+}
