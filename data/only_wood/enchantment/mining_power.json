@@ -1,7 +1,7 @@
 {
   "description": "Mining Power",
   "supported_items": "minecraft:wooden_pickaxe",
-  "weight": 100,
+  "weight": 10,
   "max_level": 4,
   "min_cost": {
     "base": 1,
