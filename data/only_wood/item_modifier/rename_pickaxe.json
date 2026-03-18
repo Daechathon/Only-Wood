@@ -24,7 +24,18 @@
                                     }
                               }
                         }
-                  },
+                  }
+          ]
+    },
+    {
+        "function": "set_name",
+        "name": {
+            "type": "text",
+            "text": "Wooden Pickaxe",
+            "italic": false
+        },
+        "entity": "this",
+        "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
@@ -41,7 +52,18 @@
                                     }
                               }
                         }
-                  },
+                  }
+          ]
+    },
+    {
+        "function": "set_name",
+        "name": {
+            "type": "text",
+            "text": "Wooden Pickaxe",
+            "italic": false
+        },
+        "entity": "this",
+        "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
@@ -58,7 +80,18 @@
                                     }
                               }
                         }
-                  },
+                  }
+          ]
+    },
+    {
+        "function": "set_name",
+        "name": {
+            "type": "text",
+            "text": "Wooden Pickaxe",
+            "italic": false
+        },
+        "entity": "this",
+        "conditions": [
                   {
                     "condition": "minecraft:entity_properties",
                     "entity": "this",
@@ -76,6 +109,6 @@
                               }
                         }
                   }
-            ]
+          ]
     }
 ]
