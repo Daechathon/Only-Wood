@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:dragon_head"
         },
-        "title": "Kill the Ender Dragon",
-        "description": "Just kill it. Easy.",
+        "title": "It can't be THAT hard",
+        "description": "Kill the Ender Dragon",
         "frame": "challenge"
     },
     "parent": "only_wood:nether/the_end",

@@ -3,12 +3,12 @@
         "icon": {
             "id": "minecraft:dragon_egg"
         },
-        "title": "Obtain Dragon Egg",
-        "description": "Slippery little thing ain't it",
+        "title": "Slippery little thing ain't it",
+        "description": "Obtain Dragon Egg",
         "frame": "task",
         "hidden": true
     },
-    "parent": "only_wood:nether/kill_dragon",
+    "parent": "only_wood:cursed/get_wood",
     "criteria": {
         "obtain egg": {
             "trigger": "minecraft:inventory_changed",

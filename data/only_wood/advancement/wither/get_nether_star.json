@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:nether_star"
         },
-        "title": "Obtain a Nether Star",
-        "description": "Oh No, there's more",
+        "title": "Oh no, there's more",
+        "description": "Obtain a Nether Star",
         "frame": "task",
         "hidden": true
     },

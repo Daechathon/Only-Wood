@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:nether_bricks"
         },
-        "title": "Go to the Nether",
-        "description": "This might be a bit dangerous",
+        "title": "Why is it Spicy",
+        "description": "Go to the Nether",
         "frame": "goal"
     },
     "parent": "only_wood:get_log",

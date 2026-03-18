@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:wither_skeleton_skull"
         },
-        "title": "Kill the Wither",
-        "description": ":3",
+        "title": "The DPS Check",
+        "description": "Kill the Wither",
         "frame": "challenge"
     },
     "parent": "only_wood:nether/enter_nether",

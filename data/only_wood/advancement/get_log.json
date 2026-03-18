@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:oak_log"
         },
-        "title": "Obtain a Log",
-        "description": "Get punching trees!",
+        "title": "Tree Puncher",
+        "description": "Obtain a Log",
         "frame": "task",
         "hidden": false
     },

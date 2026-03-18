@@ -7,7 +7,7 @@
         "description": "??????????",
         "frame": "challenge"
     },
-    "parent": "only_wood:nether/obtain_egg",
+    "parent": "only_wood:cursed/obtain_egg",
     "criteria": {
         "eat dragon egg": {
             "trigger": "minecraft:consume_item",

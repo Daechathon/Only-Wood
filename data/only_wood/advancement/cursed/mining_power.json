@@ -7,7 +7,7 @@
             }
         },
         "title": "Forbidden Tools",
-        "description": "That shouldn't be able to do that",
+        "description": "You shouldn't be able to do that",
         "frame": "challenge"
     },
     "parent": "only_wood:cursed/get_wood",

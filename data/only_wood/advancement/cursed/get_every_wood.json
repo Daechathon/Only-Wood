@@ -1,20 +1,20 @@
 {
     "display": {
         "icon": {
-            "id": "minecraft:pale_oak_log"
+            "id": "minecraft:pale_oak_wood"
         },
-        "title": "Get Every Log",
-        "description": "Why",
+        "title": "The Infinity Stones",
+        "description": "Collect Every Wood",
         "frame": "challenge"
     },
-    "parent": "only_wood:get_log",
+    "parent": "only_wood:cursed/get_wood",
     "criteria": {
         "obtain acacia log": {
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:acacia_logs"
+                        "items": "minecraft:acacia_wood"
                     }
                 ]
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:birch_logs"
+                        "items": "minecraft:birch_wood"
                     }
                 ]
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:cherry_logs"
+                        "items": "minecraft:cherry_wood"
                     }
                 ]
             }
@@ -44,7 +44,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:dark_oak_logs"
+                        "items": "minecraft:dark_oak_wood"
                     }
                 ]
             }
@@ -54,7 +54,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:jungle_logs"
+                        "items": "minecraft:jungle_wood"
                     }
                 ]
             }
@@ -64,7 +64,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:mangrove_logs"
+                        "items": "minecraft:mangrove_wood"
                     }
                 ]
             }
@@ -84,7 +84,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:pale_oak_logs"
+                        "items": "minecraft:pale_oak_wood"
                     }
                 ]
             }
@@ -94,7 +94,7 @@
             "conditions": {
                 "items": [
                     {
-                        "items": "#minecraft:spruce_logs"
+                        "items": "minecraft:spruce_wood"
                     }
                 ]
             }

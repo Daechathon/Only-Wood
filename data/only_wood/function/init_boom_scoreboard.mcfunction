@@ -9,5 +9,6 @@ scoreboard players set time math 0
 scoreboard players set 20 math 20
 
 scoreboard objectives modify boom_counter displayname "Times Exploded"
+scoreboard objectives setdisplay sidebar boom_counter
 
 #say scoreboards initialized

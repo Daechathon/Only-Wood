@@ -6,7 +6,7 @@ gamerule show_death_messages false
 
 
 #say @s was executed for heresy
-tellraw @a [{"type":"selector","selector":"@s"},{"text":" was executed by the Lorax for heresy"}]
+tellraw @a [{"type":"selector","selector":"@s"},{"text":" exploded"}]
 
 summon minecraft:lightning_bolt ~ ~ ~
 summon minecraft:lightning_bolt ~ ~ ~

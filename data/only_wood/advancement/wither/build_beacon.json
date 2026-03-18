@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:beacon"
         },
-        "title": "Construct a Beacon",
-        "description": "Did you really think it would be that simple?",
+        "title": "Did you really think it would be that simple?",
+        "description": "Construct a Beacon",
         "frame": "challenge"
     },
     "parent": "only_wood:wither/get_nether_star",

@@ -3,8 +3,8 @@
         "icon": {
             "id": "minecraft:oak_wood"
         },
-        "title": "Obtain a Wood",
-        "description": "Wait, that's illegal!"
+        "title": "Wait, that's illegal!",
+        "description": "Obtain a Wood"
     },
     "parent": "only_wood:get_log",
     "criteria": {

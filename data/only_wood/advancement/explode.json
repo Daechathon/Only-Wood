@@ -3,8 +3,8 @@
     "icon": {
       "id": "minecraft:tnt"
     },
-    "title": "Explode",
-    "description": "Commit High Treason",
+    "title": "The Inevitable",
+    "description": "Explode",
     "background": "minecraft:block/spruce_planks",
     "frame": "challenge",
     "hidden": false
