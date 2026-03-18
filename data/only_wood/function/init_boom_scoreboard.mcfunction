@@ -3,6 +3,7 @@ scoreboard objectives add math dummy
 scoreboard objectives add boom_counter dummy
 scoreboard objectives add player_id dummy
 scoreboard objectives add boom_immunity dummy
+scoreboard objectives add obsidian_mined minecraft.broken:minecraft.obsidian
 
 scoreboard players set time math 0
 scoreboard players set 20 math 20
