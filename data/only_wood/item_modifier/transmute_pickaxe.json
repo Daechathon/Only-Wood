@@ -3,192 +3,216 @@
         "function": "minecraft:set_item",
         "item": "minecraft:copper_pickaxe",
         "conditions": [
-              {
+            {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                            "mainhand": {
-                                  "items": "minecraft:wooden_pickaxe",
-                                  "components": {
-                                        "minecraft:enchantments": {
-                                                "only_wood:mining_power": 1
-                                            }
-                                      }
-                                }
-                          }
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:wooden_pickaxe",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 1
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_components",
         "components": {
-          "minecraft:item_model": "minecraft:wooden_pickaxe"
+            "minecraft:item_model": "minecraft:wooden_pickaxe"
         },
         "conditions": [
-              {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                          "type": "minecraft:player",
-                          "equipment": {
-                                "mainhand": {
-                                      "items": "#minecraft:pickaxes",
-                                      "components": {
-                                            "minecraft:enchantments": {
-                                                "only_wood:mining_power": 1
-                                            }
-                                      }
-                                }
-                          }
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#minecraft:pickaxes",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 1
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_item",
         "item": "minecraft:iron_pickaxe",
         "conditions": [
-              {
+            {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                            "mainhand": {
-                                  "items": "minecraft:wooden_pickaxe",
-                                  "components": {
-                                        "minecraft:enchantments": {
-                                                "only_wood:mining_power": 2
-                                            }
-                                      }
-                                }
-                          }
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:wooden_pickaxe",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 2
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_components",
         "components": {
-          "minecraft:item_model": "minecraft:wooden_pickaxe"
+            "minecraft:item_model": "minecraft:wooden_pickaxe"
         },
         "conditions": [
-              {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                          "type": "minecraft:player",
-                          "equipment": {
-                                "mainhand": {
-                                      "items": "#minecraft:pickaxes",
-                                      "components": {
-                                            "minecraft:enchantments": {
-                                                "only_wood:mining_power": 2
-                                            }
-                                      }
-                                }
-                          }
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#minecraft:pickaxes",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 2
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_item",
         "item": "minecraft:diamond_pickaxe",
         "conditions": [
-              {
+            {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                            "mainhand": {
-                                  "items": "minecraft:wooden_pickaxe",
-                                  "components": {
-                                        "minecraft:enchantments": {
-                                                "only_wood:mining_power": 3
-                                            }
-                                      }
-                                }
-                          }
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:wooden_pickaxe",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 3
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_components",
         "components": {
-          "minecraft:item_model": "minecraft:wooden_pickaxe"
+            "minecraft:item_model": "minecraft:wooden_pickaxe"
         },
         "conditions": [
-              {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                          "type": "minecraft:player",
-                          "equipment": {
-                                "mainhand": {
-                                      "items": "#minecraft:pickaxes",
-                                      "components": {
-                                            "minecraft:enchantments": {
-                                                "only_wood:mining_power": 3
-                                            }
-                                      }
-                                }
-                          }
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#minecraft:pickaxes",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 3
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_item",
         "item": "minecraft:netherite_pickaxe",
         "conditions": [
-              {
+            {
                 "condition": "minecraft:entity_properties",
                 "entity": "this",
                 "predicate": {
-                      "type": "minecraft:player",
-                      "equipment": {
-                            "mainhand": {
-                                  "items": "minecraft:wooden_pickaxe",
-                                  "components": {
-                                        "minecraft:enchantments": {
-                                                "only_wood:mining_power": 4
-                                            }
-                                      }
-                                }
-                          }
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "minecraft:wooden_pickaxe",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     },
     {
         "function": "minecraft:set_components",
         "components": {
-          "minecraft:item_model": "minecraft:wooden_pickaxe"
+            "minecraft:item_model": "minecraft:wooden_pickaxe"
         },
         "conditions": [
-              {
-                    "condition": "minecraft:entity_properties",
-                    "entity": "this",
-                    "predicate": {
-                          "type": "minecraft:player",
-                          "equipment": {
-                                "mainhand": {
-                                      "items": "#minecraft:pickaxes",
-                                      "components": {
-                                            "minecraft:enchantments": {
-                                                "only_wood:mining_power": 4
-                                            }
-                                      }
-                                }
-                          }
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                        "mainhand": {
+                            "items": "#minecraft:pickaxes",
+                            "predicates": {
+                                "minecraft:enchantments": [
+                                    {
+                                        "enchantments": "only_wood:mining_power",
+                                        "levels": 4
+                                    }
+                                ]
+                            }
+                        }
                     }
-              }
+                }
+            }
         ]
     }
 ]
