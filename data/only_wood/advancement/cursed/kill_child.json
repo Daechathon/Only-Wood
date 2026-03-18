@@ -8,7 +8,7 @@
         "frame": "challenge",
         "hidden": true
     },
-    "parent": "only_wood:get_log",
+    "parent": "only_wood:cursed/get_wood",
     "criteria": {
         "kill a child": {
             "trigger": "minecraft:player_killed_entity",

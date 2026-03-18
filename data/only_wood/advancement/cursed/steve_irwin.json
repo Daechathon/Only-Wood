@@ -7,7 +7,7 @@
         "description": "Observe the polar bear in its natural habitat",
         "frame": "challenge"
     },
-    "parent": "only_wood:get_log",
+    "parent": "only_wood:cursed/get_wood",
     "criteria": {
         "poke with stick": {
             "trigger": "minecraft:player_hurt_entity",
