@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:dragon_egg"
+        },
+        "title": "Dragon Omelette",
+        "description": "??????????",
+        "frame": "challenge"
+    },
+    "parent": "only_wood:cursed/obtain_egg",
+    "criteria": {
+        "eat dragon egg": {
+            "trigger": "minecraft:consume_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:dragon_egg"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "loot": [
+            "minecraft:blocks/dragon_egg"
+        ]
+    }
+}

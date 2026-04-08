@@ -1,0 +1,29 @@
+{
+    "values": [
+        "#minecraft:air",
+        "#minecraft:mineable/axe",
+        "#minecraft:mineable/hoe",
+        "#minecraft:beds",
+        "#minecraft:can_glide_through",
+        "#minecraft:climbable",
+        "#minecraft:wool_carpets",
+        "#minecraft:wooden_doors",
+        "#minecraft:flowers",
+        "#minecraft:portals",
+        "#minecraft:saplings",
+        "#minecraft:replaceable",
+        "#minecraft:rails",
+        "#minecraft:crops",
+        "#minecraft:wall_post_override",
+        "minecraft:fire",
+        "minecraft:lava",
+        "minecraft:water",
+        "minecraft:big_dripleaf",
+        "minecraft:big_dripleaf_stem",
+        "minecraft:small_dripleaf",
+        "minecraft:sugar_cane",
+        "minecraft:cactus",
+        "minecraft:kelp",
+        "minecraft:kelp_plant"
+    ]
+}

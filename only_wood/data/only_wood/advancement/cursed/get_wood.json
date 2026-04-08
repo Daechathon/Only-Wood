@@ -1,0 +1,32 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_wood"
+        },
+        "title": "Wait, that's illegal!",
+        "description": "Obtain a Wood"
+    },
+    "parent": "only_wood:get_log",
+    "criteria": {
+        "get a wood": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:acacia_wood",
+                            "minecraft:birch_wood",
+                            "minecraft:cherry_wood",
+                            "minecraft:dark_oak_wood",
+                            "minecraft:jungle_wood",
+                            "minecraft:mangrove_wood",
+                            "minecraft:oak_wood",
+                            "minecraft:pale_oak_wood",
+                            "minecraft:spruce_wood"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

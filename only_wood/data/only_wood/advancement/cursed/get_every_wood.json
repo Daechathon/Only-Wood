@@ -1,0 +1,103 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:pale_oak_wood"
+        },
+        "title": "The Infinity Stones",
+        "description": "Collect Every Wood",
+        "frame": "challenge"
+    },
+    "parent": "only_wood:cursed/get_wood",
+    "criteria": {
+        "obtain acacia log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:acacia_wood"
+                    }
+                ]
+            }
+        },
+        "obtain birch log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:birch_wood"
+                    }
+                ]
+            }
+        },
+        "obtain cherry log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:cherry_wood"
+                    }
+                ]
+            }
+        },
+        "obtain dark oak log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:dark_oak_wood"
+                    }
+                ]
+            }
+        },
+        "obtain jungle log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:jungle_wood"
+                    }
+                ]
+            }
+        },
+        "obtain mangrove log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:mangrove_wood"
+                    }
+                ]
+            }
+        },
+        "obtain oak log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:oak_log"
+                    }
+                ]
+            }
+        },
+        "obtain pale oak log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:pale_oak_wood"
+                    }
+                ]
+            }
+        },
+        "obtain spruce log": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:spruce_wood"
+                    }
+                ]
+            }
+        }
+    }
+}

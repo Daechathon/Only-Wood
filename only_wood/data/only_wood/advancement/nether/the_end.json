@@ -1,0 +1,20 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:end_portal_frame"
+        },
+        "title": "Hope you're ready",
+        "description": "Enter the End",
+        "frame": "goal"
+    },
+    "parent": "only_wood:nether/enter_nether",
+    "criteria": {
+        "enter the end": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "from": "minecraft:overworld",
+                "to": "minecraft:the_end"
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:sculk_catalyst"
+        },
+        "title": "Sculking Around",
+        "description": "obtain a sculk catalyst",
+        "frame": "task",
+        "hidden": true
+    },
+    "parent": "only_wood:deep/deep_down",
+    "criteria": {
+        "obtain sculk catalyst": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": "minecraft:sculk_catalyst"
+                    }
+                ]
+            }
+        }
+    }
+}
