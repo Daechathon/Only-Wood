@@ -1,6 +1,7 @@
 # Only-Wood
 A Minecraft datapack that makes you explode if you touch anything other than wood or wood adjacent things.
 This datapack is for Minecraft Java Edition 1.21.11+ only.  
+See the [wiki](https://github.com/Daechathon/Only-Wood/wiki) for details on specific features
 
 
 ### Installation
