@@ -19,7 +19,3 @@ $execute as @s at @s run bossbar remove $(id)
 execute as @s at @s run scoreboard players set @s player_immunity -1
 #execute as @s at @s run scoreboard players set @s boom_immunity 0
 execute as @s at @s run data remove storage minecraft:player_id player.immune
-
-
-#advancement: explode
-execute as @s at @s if score @s boom_counter matches 1.. run advancement grant @s only only_wood:explode

@@ -19,4 +19,7 @@ gamerule show_death_messages true
 
 execute as @a at @s run scoreboard players add @s boom_counter 1
 
+#advancement: explode
+execute as @s at @s if score @s boom_counter matches 1.. run advancement grant @s only only_wood:explode
+
 function only_wood:spawn_immunity
